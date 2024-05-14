@@ -1,0 +1,256 @@
+.netflix-bg{
+    background-image: url(public/img/banner3.jpg);
+    background-size: cover;
+    height: 100vh;
+   
+}
+.shade{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    height: 100vh;
+}
+.logo img{
+    width: 100%;
+}
+.center-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+}
+.heading1{
+    width: 60%;
+}
+.heading1 h1{
+    font-weight: bold;
+}
+.subtitle{
+    font-weight: 500;
+    font-size: 20px;
+}
+.search-bar>div{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.search-bar input{
+    width: 100%;
+    height: 3.5rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.search-div{
+    width: 50%;
+}
+::placeholder{
+    color: rgb(221, 218, 218);
+}
+.search-bar button{
+    background-color: red;
+    height: 3.5rem;
+    margin-top: -1px;
+    width: 8rem;
+    margin-left: 1rem;
+
+   
+}
+.tv,.mobile,.macbook,.toy{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-top: 10px solid gray;
+    align-items: center;
+    
+}
+.tv-ad,.mobile-ad,.macbook-ad,.toy-ad{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding: 5rem 0rem 5rem 0rem;
+    width: 80%;
+}
+.tv-text,.mobile-text,.macbook-text,.toy-text{
+    margin-top: 3rem;
+}
+.tv h1,.mobile h1,.macbook h1,.toy h1 {
+    font-weight: bold;
+    margin-top: 10%;
+}
+.tv p,.mobile p,.macbook p,.toy p{
+    font-size: 1.5rem;
+    width: 85%;
+}
+.tv-box img,.mobile-box img,.macbook img,.toy img{
+    width: 100%;
+}
+.quiz-box{
+    padding: 5rem 3rem 5rem 3rem;
+    width: 90%;
+    
+}
+.quiz h1{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.quiz{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-top: 10px solid gray;
+    align-items: center;
+}
+.accordion-item{
+    margin-top: 10px;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-size: 23px;
+    border: none;
+    font-weight: 400;
+}
+.accordion-btn{
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    border: none;
+    padding: 1.5rem;
+    outline: none;
+    text-align: left;
+}
+.accordion-btn:focus{
+    border-bottom: 1px solid black;
+}
+.quiz-form{
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 400;
+    font-size: 20px;
+}
+.quiz-searchbar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.quiz-searchbar input{
+    background-color: transparent;
+    height: 3.5rem;
+    width: 100%;
+    font-size: 17px;
+    color: white;
+    border:1px solid rgb(95, 94, 94);
+    border-radius: 5px;
+    padding:0rem 1rem 0rem 1rem;
+}
+.searchbar-div{
+    width: 40%;
+}
+.quiz-form button{
+    background-color: red;
+    font-weight: 400;
+    font-size: 23px;
+    height: 3.6rem;
+    width: 100%;
+    margin-left: 1rem;
+}
+footer{
+    background-color: black;
+    color: rgb(206, 206, 206);
+    font-weight: bold;
+    border-top: 10px solid gray;
+    padding: 5rem;
+}
+a{
+    color: rgb(206, 206, 206);
+    font-weight: 500;
+}
+footer h4{
+    color: antiquewhite;
+    font-style:oblique;
+    margin-top: 2rem;
+}
+.copy{
+    background: rgb(204, 0, 0);
+    color: white;
+    padding: 0.6rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer-flex{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr ;
+    gap: 2rem;
+}
+@media screen and (max-width:700px){
+    .netflix-bg{
+    height: 70vh;
+}
+.shade{
+    height: 70vh;
+}
+.logo img{
+    width: 80%;
+}
+.center-content{
+    height: 65vh;
+    
+}
+.heading1{
+    width: 90%;
+    padding: 0.5rem;
+}
+.tv-ad,.mobile-ad,.macbook-ad,.toy-ad{
+    text-align: center;
+    display: initial;
+    width: 100%;
+    padding: 0rem 1rem 5rem 1rem;
+}
+.tv h1,.mobile h1,.macbook h1,.toy h1 {
+    
+    font-weight: bold;
+    margin-top: 4rem;
+}
+.tv p,.mobile p,.macbook p,.toy p{
+    margin-top: 1rem;
+    font-size:20px;
+    width: 100%;
+}
+.quiz-box{
+    padding: 8rem 1rem 8rem 1rem;
+    width: 100%;
+    
+}
+.accordion-item{
+    font-size: 18px;
+}
+.searchbar-div{
+    width: 90%;
+}
+.quiz-form button{
+    margin-top: 1rem;
+    width: 120%;
+    font-size: 18px;
+    margin-left: initial;
+}
+footer{
+    padding: 3rem 1rem 5rem 2rem;
+}
+.footer-flex{
+    display: grid;
+    grid-template-columns: 6fr 6fr ;
+    gap: 1rem;
+}
+}
